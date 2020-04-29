@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service/nifi-dbcp-service.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service/nifi-dbcp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service-bundle.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service-nar/nifi-dbcp-service-nar.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service-nar/nifi-dbcp-service-nar.iml" />
+    </modules>
+  </component>
+</project>
