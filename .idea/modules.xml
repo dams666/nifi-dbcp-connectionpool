@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service/nifi-dbcp-service.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service/nifi-dbcp-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service-bundle.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service-bundle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nifi-dbcp-service-nar/nifi-dbcp-service-nar.iml" filepath="$PROJECT_DIR$/nifi-dbcp-service-nar/nifi-dbcp-service-nar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/energisme-dbcp-service/energisme-dbcp-service.iml" filepath="$PROJECT_DIR$/energisme-dbcp-service/energisme-dbcp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/energisme-dbcp-service-bundle.iml" filepath="$PROJECT_DIR$/energisme-dbcp-service-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/energisme-dbcp-service-nar/energisme-dbcp-service-nar.iml" filepath="$PROJECT_DIR$/energisme-dbcp-service-nar/energisme-dbcp-service-nar.iml" />
     </modules>
   </component>
 </project>

@@ -15,30 +15,28 @@
     -->
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.apache.nifi</groupId>
-        <artifactId>nifi-standard-services</artifactId>
-        <version>1.11.4</version>
+        <groupId>com.energisme.internal</groupId>
+        <artifactId>energisme-dbcp-service-bundle</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.energisme.internal</groupId>
-    <artifactId>energisme-dbcp-service-bundle</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>energisme-dbcp-service</module>
-        <module>energisme-dbcp-service-nar</module>
-    </modules>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    
+    <artifactId>energisme-dbcp-service-nar</artifactId>
+    <packaging>nar</packaging>
+    <properties>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <source.skip>true</source.skip>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
+            <artifactId>nifi-standard-services-api-nar</artifactId>
+            <version>1.11.4</version>
+            <type>nar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.energisme.internal</groupId>
+            <artifactId>energisme-dbcp-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

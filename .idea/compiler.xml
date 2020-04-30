@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nifi-dbcp-service-nar" />
-        <module name="nifi-dbcp-service" />
+        <module name="energisme-dbcp-service" />
+        <module name="energisme-dbcp-service-nar" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="nifi-dbcp-service" target="1.8" />
-      <module name="nifi-dbcp-service-bundle" target="1.8" />
-      <module name="nifi-dbcp-service-nar" target="1.8" />
+      <module name="energisme-dbcp-service" target="1.8" />
+      <module name="energisme-dbcp-service-bundle" target="1.8" />
+      <module name="energisme-dbcp-service-nar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
